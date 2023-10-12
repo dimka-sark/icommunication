@@ -1,0 +1,20 @@
+[submodule "libimobiledevice/src/main/cpp/external/libimobiledevice/libimobiledevice"]
+	path = libimobiledevice/src/main/cpp/external/libimobiledevice/libimobiledevice
+	url = git@github.com:dimka-sark/imobiledevice-libimobiledevice.git
+	branch = app_patch
+[submodule "libimobiledevice/src/main/cpp/external/libimobiledevice-glue/libimobiledevice-glue"]
+	path = libimobiledevice/src/main/cpp/external/libimobiledevice-glue/libimobiledevice-glue
+	url = git@github.com:dimka-sark/imobiledevice-libimobiledevice-glue.git
+	branch = app_patch
+[submodule "libimobiledevice/src/main/cpp/external/libplist/libplist"]
+	path = libimobiledevice/src/main/cpp/external/libplist/libplist
+	url = git@github.com:dimka-sark/imobiledevice-libplist.git
+	branch = app_patch
+[submodule "libimobiledevice/src/main/cpp/external/libusbmuxd/libusbmuxd"]
+	path = libimobiledevice/src/main/cpp/external/libusbmuxd/libusbmuxd
+	url = git@github.com:dimka-sark/imobiledevice-libusbmuxd.git
+	branch = app_patch
+[submodule "libimobiledevice/src/main/cpp/external/usbmuxd/usbmuxd"]
+	path = libimobiledevice/src/main/cpp/external/usbmuxd/usbmuxd
+	url = git@github.com:dimka-sark/imobiledevice-usbmuxd.git
+	branch = app_patch

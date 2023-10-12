@@ -1,0 +1,22 @@
+plugins {
+  id 'com.android.library'
+  id 'org.jetbrains.kotlin.android'
+}
+
+apply from: "$rootDir/gradle/module.gradle"
+
+android {
+  namespace 'com.dimkasark.libimobiledevice'
+
+  externalNativeBuild {
+    cmake {
+      path file('src/main/cpp/CMakeLists.txt')
+      version '3.22.1'
+    }
+  }
+}
+
+dependencies {
+  implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4")
+  implementation 'androidx.annotation:annotation:1.7.0'
+}

@@ -1,0 +1,10 @@
+plugins {
+  id 'com.android.library'
+  id 'org.jetbrains.kotlin.android'
+}
+
+apply from: "$rootDir/gradle/module.gradle"
+
+android {
+  namespace 'com.dimkasark.service_api'
+}
